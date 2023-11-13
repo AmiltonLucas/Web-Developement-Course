@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    color: rgb(74, 98, 235);
+    background-image: url(./images/fundodonapaes.jpg);
+}
+
+header img {
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 10px;
+    right: 655px;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(233, 203, 104);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-position: inside;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+button {
+    color: black;
+    background-color: rgb(233, 203, 104);
+    font-size: 25px;
+    border-radius: 15px;
+    position: absolute;
+    left: 580px;
+}
+
+main {
+    width: 650px;
+    margin: auto;
+    list-style-position: inside;
+}
+
+strong {
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(233, 203, 104);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+} 
+
+footer img{
+    mix-blend-mode: multiply;
+    position: static;
+    
+}
+
+h1, h2, span {
+    color:rgb(233, 203, 104);
+}

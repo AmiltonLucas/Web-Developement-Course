@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+ }
+
+h1 {
+    font-size: 42px;
+    animation-name: slideTopDown ;
+    animation-duration: 1s;
+}
+
+p {
+    animation: fadeIn 4s;
+}
+
+h1:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.square {
+    height: 120px;
+    width: 120px; 
+    margin: auto;
+    background-color: lightcoral;
+    transition-duration: 2s;
+    border-radius: 25%;
+    transition-duration: 2s;
+    transition-delay: 3s;
+    transition-property: background;
+    transition: background 2s 2s, transform 3s 3s, border-radius 4s 4s;
+}
+
+.square:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+    height: 240px;
+    width: 200px;
+}
+
+.square:active {
+    outline: 1px solid red;
+}
+input {
+    margin-top: 24px;
+}
+
+.input:focus {
+    outline: 1px solid lightskyblue;
+}
+
+.spinner-loading {
+    width: 40px;
+    display: block;
+    margin: auto;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes spinner{
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideTopDown{
+    0% {
+        transform: translateY(-100%);
+    }
+    
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}

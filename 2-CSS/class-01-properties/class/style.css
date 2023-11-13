@@ -1,0 +1,38 @@
+body {
+    
+   background: url(../../../1-HTML/class-03-medias/challenges/images/background-img2.jpg);
+   background-repeat: no-repeat;
+   background-size: 240px;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+h1 {
+    color: green;
+    background: purple;
+    border: 3px solid yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid underline black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#subTitle1 {
+    color: red
+}
+
+#subTitle2 {
+    color: darkred
+    
+}
+
+.paragraph {
+    color: teal;
+}
+
+p {
+    color: red;
+}
+
+button {
+    background-image: linear-gradient(red , green)
+}
