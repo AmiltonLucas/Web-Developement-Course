@@ -13,11 +13,12 @@ num1 = Number(num1);
 console.log(num1 + num2);
 // ⬆ type coersion > digita coerção ⬆
 
-console.log("A soma de Num1 + Num2 é: " + (num1 = num2)); 
+console.log("A soma de Num1 + Num2 é: " + (num1 + num2)); 
 // ⬆ grouping operator > Operador de Grupo ⬆
 
 console.log("A soma de " + num1 + " e " + num2 + " é: " + (num1 + num2));
 // ⬆ interpolation > Interpolação ⬆
 
-console.log(`A soma de ${num1} e ${num2} é: ${num1 + num2}`);
-// ⬆ template literals > Literais de Modelo ⬆
+const sumNumbers = num1 + num2;
+console.log(`A soma de ${num1} e ${num2} é: ${sumNumbers}`);
+// ⬆ template literals > Literais de Modelo ⬆ 
