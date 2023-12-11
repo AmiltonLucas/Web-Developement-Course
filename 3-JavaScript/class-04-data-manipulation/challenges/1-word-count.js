@@ -1,0 +1,1 @@
+// Crie uma função que retorne quantas palavras tem uma frase
