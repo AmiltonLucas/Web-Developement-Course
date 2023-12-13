@@ -43,3 +43,4 @@ function log() {
     return "print";
 }
 
+console.log(print);
