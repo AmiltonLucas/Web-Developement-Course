@@ -1,0 +1,1 @@
+// Desafio 12: crie uma função que remova um elemento específico de um array. Insira o nome do elemento e o array via parâmetros depois retorne o array com valor atualizado
