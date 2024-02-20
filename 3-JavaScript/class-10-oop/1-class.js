@@ -11,7 +11,7 @@ class Control {
     };
 
     on_Off() {
-        this.isOn = !this.isOn;
+        this.isOn = !this.isOn
     }
 
     tempUpper() {
@@ -54,6 +54,6 @@ buttonLower.addEventListener("click", () => {
 })
 
 buttonOnOff.addEventListener("click", () => {
-    airControl.tempOnOff();
+    airControl.on_Off();
     console.log(airControl.isOn);
 })
